@@ -1,0 +1,82 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: 1500px;
+}
+
+.green{
+	width: 500px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+.red{
+	width:210px ;
+	height: 210px;
+	background: red;
+	top: 24%;
+	right:30%;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 4
+	
+
+}
+.fb{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	right: -90px;
+	transition: 1.5s;
+
+}
+.fb:hover{
+	right: -3px;
+
+}
+.ins{
+	width:92px;
+	position: fixed;
+	top:49%;
+	right:-74px;
+	transition: 1.5s;
+}
+.ins:hover{
+	right: -3px;
+}
+.link{
+	width: 100px;
+	position: fixed;
+	top: 60%;
+	right:-80px;
+	transition: 1.5s;
+}
+.link:hover{
+	right: -3px;
+}
+
+.youtube{
+	width:101px;
+	position: fixed;
+	top: 20%;
+	right: -60px;
+	transition: 1.5s;
+
+}
+.youtube:hover{
+	right: -3px;
+}
+
+.tw{
+	width:110px;
+	position: fixed;
+	top: 10%;
+	right:-67px;
+	transition: 1.5s;
+}
+.tw:hover{
+	right: -3px;
+}
